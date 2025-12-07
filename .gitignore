@@ -1,0 +1,17 @@
+# virtual env
+venv/
+
+# compiled garbage
+__pycache__/
+*.pyc
+
+# heavy data / outputs
+data/videos/
+results/
+*.mp4
+*.csv
+*.log
+
+# YOLOv5 repo & weights (we don't track the whole thing)
+yolov5/
+*.pt
